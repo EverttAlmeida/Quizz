@@ -1,0 +1,63 @@
+.container{
+    background-color: rgb(122, 122, 122);
+    width: 450px;
+    min-height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(66, 60, 60, 0.75);
+}
+.infoperguntas{
+    width: 100%;
+    position: relative;
+}
+
+.contagemPerguntas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px ;
+}
+.contagemPerguntas span{
+    font-size: 30px;
+
+}
+.perguntas{
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+.grupoReposta{
+    display: flex;
+    flex: 1 1 200px;
+    justify-content: left;
+    align-items: center;
+}
+.resposta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button{
+    display: flex;
+    font-size: 16px;
+    background-color: rgb(210, 205, 205);
+    border: radius 8px;
+    padding: 8px;
+    border: 3px solid #362a4d;
+    cursor: pointer;
+    margin:0 12px 10px
+}
+button:hover{
+    background-color:aquamarine;
+}
+.pontuacao{
+    display: flex;
+    min-width: 200px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
